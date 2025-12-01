@@ -5,13 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora propinas</title>
     <style>
+        /* Estilos del HTML */
         body{
         background-color: #c9e7ff;
-        color:purple
+        color:rgb(0, 0, 0)
+        }
+
+        section{
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }   
+
+        li{
+            background-color: #acbfff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
+    <section>
+        <header>
+            <h1>Calculadora de Propinas</h1>
+        </header>
+
+        <ul>
+            <li id="monto-cuenta"></li>
+            <li id="monto-propina"></li>
+            <li id="total-a-pagar"></li>
+        </ul>
+    </section>
     <script src="calculadora-propinas.js"></script>
 </body>
 </html>
